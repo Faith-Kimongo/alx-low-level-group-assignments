@@ -38,12 +38,8 @@
  *
  * struct fmt - Struct op
  *
- *
- *
  * @fmt: The format.
- *
  * @fn: The function associated.
- *
  */
 
 struct fmt
@@ -62,12 +58,8 @@ struct fmt
  *
  * typedef struct fmt fmt_t - Struct op
  *
- *
- *
  * @fmt: The format.
- *
  * @fm_t: The function associated.
- *
  */
 
 typedef struct fmt fmt_t;
@@ -137,14 +129,14 @@ int print_non_printable(va_list types, char buffer[],
 		int flags, int width, int precision, int size);
 
 
-/* Funcion to print memory address */
+/* Function to print memory address */
 
 int print_pointer(va_list types, char buffer[],
 
 		int flags, int width, int precision, int size);
 
 
-/* Funciotns to handle other specifiers */
+/* Functions to handle other specifiers */
 
 int get_flags(const char *format, int *i);
 
