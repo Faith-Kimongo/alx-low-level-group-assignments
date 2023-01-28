@@ -24,7 +24,7 @@
  *
  */
 
- print_pointer(va_list types, char buffer[],
+int print_pointer(va_list types, char buffer[],
 
 		int flags, int width, int precision, int size)
 
