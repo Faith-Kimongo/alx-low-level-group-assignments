@@ -12,7 +12,7 @@
  *
  * @buffer: Buffer array to handle print
  *
- * @flags:  Calculates active flags
+ * @flags:  Calculates active fla
  *
  * @width: Width
  *
